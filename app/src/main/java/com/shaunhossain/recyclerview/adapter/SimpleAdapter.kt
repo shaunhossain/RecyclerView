@@ -5,6 +5,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.shaunhossain.recyclerview.R
 import com.shaunhossain.recyclerview.SimpleData
@@ -33,6 +34,7 @@ class SimpleAdapter(private val simpleData: List<SimpleData>) :RecyclerView.Adap
         val imageeView: ImageView = itemView.image
         val title: TextView = itemView.title
         val description: TextView = itemView.description
+        //val simpleLayoutView: View = itemView.SimpleLayoutView
 
     }
 }
